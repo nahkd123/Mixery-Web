@@ -4,8 +4,11 @@
         "target": "ES2016",
 
         "incremental": true,
-        "tsBuildInfoFile": "./tsbuild.json"
+        "tsBuildInfoFile": "./tsbuild.json",
+
+        "outDir": "bin"
     },
+    "include": ["ts"],
     "exclude": [
         "node_modules"
     ]
