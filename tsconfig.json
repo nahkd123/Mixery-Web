@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2016",
+
+        "incremental": true,
+        "tsBuildInfoFile": "./tsbuild.json"
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
