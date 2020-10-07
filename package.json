@@ -4,7 +4,9 @@
   "description": "A Mixery HTTP server",
   "main": "bin/index.js",
   "scripts": {
-    "test": "tsc && cd Mixery && tsc && cd .. && node ."
+    "test": "tsc && cd Mixery && tsc && cd .. && node .",
+    "start": "tsc && cd Mixery && tsc && cd .. && node .",
+    "run": "tsc && cd Mixery && tsc && cd .. && node ."
   },
   "keywords": [
     "daw"
